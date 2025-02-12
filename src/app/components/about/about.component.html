@@ -1,14 +1,20 @@
 <section class="about" id="about">
   <div class="about-img">
-    <img src="images/moi.png">
+    <img src="images/aboutPhoto.png" alt="Photo de profil">
   </div>
   <div class="about-content">
     <h2 class="heading">A propos<span> de Moi</span></h2>
     <h3>Développeur full-stack</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ratione illum in commodi sint odit, fugiat illo animi libero fugit aspernatur rem eum incidunt expedita harum quibusdam temporibus inventore excepturi.
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum, eius porro! Reiciendis debitis ab libero nam cupiditate id animi voluptas, soluta ex nesciunt mollitia laudantium cum illum delectus ipsa nulla?
-    </p>
-    <a href="#" class="bouton">Voir plus</a>
-  </div>
+    <p>Développeur full-stack passionné, je maîtrise des technologies comme Angular, Flutter, et Spring Boot. Mon objectif est de créer des solutions web et mobiles performantes en combinant innovation et efficacité. J’ai une solide expérience en gestion de projets et en développement d’applications robustes adaptées aux besoins des utilisateurs.</p>
 
+    <!-- Partie cachée qui s'affiche au clic -->
+    <div *ngIf="showMoreInfo">
+      <p>En plus de mes compétences techniques, je suis également expérimenté dans la gestion d'équipes et la coordination de projets. J'ai travaillé sur des projets de grande envergure, en utilisant des méthodologies agiles pour garantir la réussite des livraisons. Ma passion pour l'innovation me pousse à explorer de nouvelles technologies et à perfectionner mes compétences en permanence.</p>
+    </div>
+
+    <!-- Bouton Voir plus -->
+    <button (click)="toggleInfo()" class="bouton">
+      {{ showMoreInfo ? 'Voir moins' : 'Voir plus' }}
+    </button>
+  </div>
 </section>
