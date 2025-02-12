@@ -1,0 +1,57 @@
+h1{
+    color: white;
+}
+
+.nav-link:hover {
+  color: #2BD9FE !important; /* Change la couleur à bleu lors du hover */
+  text-decoration: none; /* Enlève le soulignement (optionnel) */
+}
+.home{
+  margin-top: 8em;
+  color: #fff;
+}
+.navbar a{
+  font-size: 1.7rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: default;
+}
+.offcanvas-title{
+  font-size: 2.5rem;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem 9%;
+  background: #373F47;
+  color: #fff;
+}
+.footer-text{
+  font-size: 1.6rem;
+}
+.footer-iconTop a{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: .8rem;
+  background: #2BD9FE;
+  border-radius: .8rem;
+  transition: .5s ease;
+  text-decoration: none;
+
+}
+.footer-iconTop:hover{
+  box-shadow: 0 0 1rem #2BD9FE;
+}
+.footer-iconTop a i{
+  font-size: 2.4rem;
+  color: #373F47;
+}

@@ -1,0 +1,78 @@
+.skills{
+  background:#373F47 ;
+}
+
+.skills .principale{
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: 2.5rem;
+}
+.principale .skills-content{
+  flex-basis: 46%;
+}
+
+.skills .principale h4{
+  font-size:3rem ;
+}
+.skills .principale {
+  font-size:1.6rem ;
+}
+.principale .sub-tittle h4{
+  position: relative;
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 2.6rem;
+}
+.principale .sub-tittle h4::before{
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  top: 125%;
+  left: 0;
+  background-color: #2BD9FE;
+}
+.principale .sub-tittle h4::after{
+  content: '';
+  position: absolute;
+  width: 25%;
+  height: 3px;
+  top: calc(125% - 1px);
+  left: 0;
+  background-color: #fff;
+
+}
+.subject{
+  font-size: 2.6rem;
+  padding-bottom: 1.6rem;
+  text-transform: uppercase;
+}
+.progress-bar{
+  position: relative;
+  width: 100%;
+  height: 0.6rem;
+  background-color: #191924;
+  border-radius: 1.5rem;
+  margin-bottom: 2rem;
+}
+.progress-bar::after {
+  position: absolute;
+  content: attr(data-value); /* Affiche la valeur de l'attribut `value` */
+  top: -35px;
+  right: 0;
+  color: #fff;
+  font-size: 1.6rem;
+}
+.progress-line{
+  position: absolute;
+  width: 100%;
+  height: 7px;
+  background-color: #2BD9FE;
+  border-radius: 1.6rem;
+  top: -1px;
+}
+
+
+

@@ -1,0 +1,46 @@
+.dev
+{
+  color: #2BD9FE;
+}
+.home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .home-content{
+  width: 50%;
+} */
+.home-content h3{
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.home-content p{
+  font-size: 1.6rem;
+
+}
+.home-content h1{
+  font-size: 5.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.media-social a{
+  text-decoration: none;
+  width: 4rem;
+  height: 4rem;
+  background-color: transparent;
+  border: .2rem solid #2BD9FE ;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: #2BD9FE;
+  margin: 3rem 1.5rem 3rem 0;
+  transition: .5s ease;
+}
+.media-social a:hover{
+  background: #2BD9FE;
+  color: #fff;
+  box-shadow: 0 0 1rem #2BD9FE;
+}
